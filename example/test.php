@@ -19,7 +19,7 @@ try {
 //echo "Récupération des torrents 'Top today'...<br>";
 $torrents = $t411->getTopToday ();
 
-foreach $torrents as $torrent {
+foreach ($torrents as $torrent) {
 	echo $torrent;
 }
 ?>
