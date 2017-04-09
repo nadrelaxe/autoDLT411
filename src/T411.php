@@ -13,7 +13,7 @@ class T411
      * URL racine de l'API de t411
      * @var string
      */
-    private $apiRoot = 'http://api.t411.li';
+    private $apiRoot = 'http://api.t411.ai';
 
     /**
      * Nom d'utilisateur d'un compte t411
